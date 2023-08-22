@@ -1,0 +1,18 @@
+(footprint "PKRHSL" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "HOLE" (at 0 4.675) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    (tstamp cb043152-3d42-4d6c-96b5-29344802bbd0)
+  )
+  (fp_text value "VAL**" (at 0.508 -4.826) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    (tstamp 8cf65c6c-3c5b-4c3f-8608-16c587b4fc1c)
+  )
+  (pad "" thru_hole oval (at 0 0) (size 9.99998 5.00126) (drill oval 7.00024 2.49936) (layers "*.Cu" "*.Mask") (tstamp f0675c47-f197-42d3-8cab-b5e0434939e6))
+  (model "cherry_mx1.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
