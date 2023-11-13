@@ -10,19 +10,19 @@ The repository contains the kicad files of the keyboard PCB deisgn with nRF chip
 
 <strong>Front View</strong>.
 
-![plot](./Assets/Images/Front.png)
+![plot](./Assets/Front.png)
 
 <strong>Back View</strong>.x
 
-![plot](./Assets/Images/Back.png)
+![plot](./Assets/Back.png)
 
 <strong>Front View PCB assembled</strong>.
 
-![plot](./Assets/Images/real_front.png)
+![plot](./Assets/real_front.png)
 
 <strong>Back View PCB assembled</strong>.
 
-![plot](./Assets/Images/real_back.png)
+![plot](./Assets/real_back.png)
 
 The PCB is designed in such a way that is compatible with both nRF52840 and nRF52833 MCU as they have same pinouts and the NC pins on nRF53833 are being used in nRF52840 making it compatible with both MCU to mitigate supply shortage prioblems.
 
