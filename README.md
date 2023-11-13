@@ -12,7 +12,7 @@ The repository contains the kicad files of the keyboard PCB deisgn with nRF chip
 
 ![plot](./Assets/Images/Front.png)
 
-<strong>Back View</strong>.
+<strong>Back View</strong>.x
 
 ![plot](./Assets/Images/Back.png)
 
