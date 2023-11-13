@@ -1,0 +1,17 @@
+#Temporary files created by kicad
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*Keyboard_60%-backups*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*_gerbers
+*.DS_Store*
+
+# Netlist files (exported from Eeschema)
+*.net
