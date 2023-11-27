@@ -31,7 +31,9 @@ The PCB has a PC antenna for BLE and a onboard charger chip BQ24075 (also compat
 The PCB has a SWD 10 pin debug connector comaptible with [tag-connect](https://www.tag-connect.com/product/tc2050-idc-nl-050-all) 10 pin debug connector for flashing firmware.
 The board also supports a Adafruit-UF2 bootloader to upload firmware through the USB-type-C connector (If PCB is bought from us). You can find how to build and flash UF2 boootloader to the baord in the tutorial. (still under creation)
 
-The baord supports [ZMK](https://zmk.dev/) firmare for USB and BLE connectivity. The hardware definition for nRF52 chip is written and the guide to customize the keymap to customize the keys for the keyboard is still in progress. Please check back in few days to full guide to customize the keymaps, dowanload the firmware and flash it to the board. 
+The baord supports [ZMK](https://zmk.dev/) firmare for USB and BLE connectivity. The hardware definition for nRF52 chip is written and the guide to customize the keymap to customize the keys for the keyboard can be found [here](https://github.com/hw-tinkerers/tr60-zmk-config). 
+
+Similar video is still in progross for ordering PCB and getting it assembled yourself. Please check back in some time. We appreciate your patience. 
 
 
 
