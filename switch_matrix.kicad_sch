@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2024-02-17")
+    (company "HW-tinkerers")
+  )
+
   (lib_symbols
     (symbol "keyboard:diode" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)

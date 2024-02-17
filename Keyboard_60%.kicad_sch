@@ -6,8 +6,9 @@
 
   (title_block
     (title "Main Page")
-    (date "2023-06-05")
+    (date "2024-02-17")
     (rev "1.0")
+    (company "HW-tinkerers")
   )
 
   (lib_symbols
