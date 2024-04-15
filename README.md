@@ -51,3 +51,16 @@ The firmware can be built directly on GitHub using GitHub actions and also a loc
 
 1. [Local Toolchain setup](https://github.com/hw-tinkerers/zmk)
 2. [Github Actions](https://github.com/hw-tinkerers/tr60-zmk-config)
+
+# Note: Due to a hardware bug of not being able to automatically switch between USB and BLE output, there is a certain sequence that needs to be followed to pair and unpair device from host.
+1. To pair Bluetooth very first time after flashing firmware, follow these steps,
+    1. Clear Bluetooth profile by Fn+B
+    2. Select Bluetooth output by pressing Fn + < key
+    3. Then select the profile you want to add it to. Fn + N to add to profile 0 or Fn + M for profile 1.
+    4. After doing all these steps go to the Bluetooth menu on the host and pair the device.
+    5. Follow these steps exactly in the sequence, otherwise, there will be issue of continuous pairing and unpairing.
+    6. To unpair the device follow the below steps.
+1. To unpair the paired device or remove the device from the Host:
+   1. First remove the device from the Bluetooth menu of the Host
+   2. Clear the Bluetooth profile of the keyboard by pressing the Fn+B key and your profile host will be removed from the keyboard.
+2. To pair a new device you have to first follow the first step to unpair and remove the device from the host if you have no Bluetooth profiles left. The keyboard supports 2 profiles. So if you have both of them occupied, then you need to follow the first step to unpair and then pair with this below mentioned sequence. If you have one more profile left then, just press Fn + M or Fn + N depending on what profile you want to add it to. For example, if you had added it in profile 0 that is Fn + N key then switch to profile 1 with Fn + M key and pair. Pairing with BLE is explained in 1st step. 
