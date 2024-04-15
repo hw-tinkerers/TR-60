@@ -60,6 +60,7 @@ The firmware can be built directly on GitHub using GitHub actions and also a loc
     4. After doing all these steps go to the Bluetooth menu on the host and pair the device.
     5. Follow these steps exactly in the sequence, otherwise, there will be issue of continuous pairing and unpairing.
     6. To unpair the device follow the below steps.
+    7. If it fails to pair, then first remove the device from the Bluetooth menu of host and then follow steps 1 through 4 again. 
 1. To unpair the paired device or remove the device from the Host:
    1. First remove the device from the Bluetooth menu of the Host
    2. Clear the Bluetooth profile of the keyboard by pressing the Fn+B key and your profile host will be removed from the keyboard.
