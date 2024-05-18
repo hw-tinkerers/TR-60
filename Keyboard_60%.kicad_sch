@@ -352,6 +352,92 @@
 				)
 			)
 		)
+		(symbol "keyboard:BLE_SYM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BLE_SYM_0_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy 1.905 -1.27) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 1.905 1.27) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "keyboard:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -4135,6 +4221,64 @@
 				)
 			)
 		)
+		(symbol "keyboard:ZMK_LOGO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZMK_LOGO_1_1"
+				(text "ZMK_FIRMWARE"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -5100,6 +5244,16 @@
 		)
 		(uuid "320bc9ea-0e64-4e54-9add-cd179362a690")
 	)
+	(bus
+		(pts
+			(xy 233.68 13.97) (xy 233.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3465959a-4030-4563-a92d-b1d61c06379a")
+	)
 	(wire
 		(pts
 			(xy 194.31 81.28) (xy 194.31 87.63)
@@ -5319,6 +5473,16 @@
 			(type default)
 		)
 		(uuid "4c419ac8-af09-4c88-a9a8-6eba7e756c5e")
+	)
+	(bus
+		(pts
+			(xy 233.68 13.97) (xy 281.94 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c885280-1829-4174-b7f4-e0938780009b")
 	)
 	(wire
 		(pts
@@ -5669,6 +5833,16 @@
 			(type default)
 		)
 		(uuid "78cf3434-8f34-478d-a791-c4433940a151")
+	)
+	(bus
+		(pts
+			(xy 281.94 41.91) (xy 233.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ee8d16-fcff-4ea8-901e-2b175b954702")
 	)
 	(wire
 		(pts
@@ -6830,6 +7004,16 @@
 		)
 		(uuid "eb40cd61-dabd-4da4-8ddf-727334258a38")
 	)
+	(bus
+		(pts
+			(xy 281.94 13.97) (xy 281.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8742d0-8023-4939-987a-ab4e03926dca")
+	)
 	(wire
 		(pts
 			(xy 59.69 82.55) (xy 63.5 82.55)
@@ -7013,6 +7197,16 @@
 			(href "https://infocenter.nordicsemi.com/topic/ps_nrf52840/ref_circuitry.html?cp=5_0_0_6_2#unique_305604804")
 		)
 		(uuid "04486f46-9203-4c62-b420-17ab420d621b")
+	)
+	(text "PCB ATTRIBUTES"
+		(exclude_from_sim no)
+		(at 258.318 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1298c800-4e75-4af8-9dc1-31da60e03153")
 	)
 	(text "More info on this circuit can be found\nhere\n"
 		(exclude_from_sim no)
@@ -8716,7 +8910,7 @@
 	)
 	(symbol
 		(lib_id "keyboard:Outline")
-		(at 259.08 36.83 0)
+		(at 270.51 26.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8724,7 +8918,7 @@
 		(dnp yes)
 		(uuid "25410aad-eef1-4e0d-bb15-9e43a8fd8cb2")
 		(property "Reference" "S2"
-			(at 257.81 40.894 0)
+			(at 269.24 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +8927,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 264.16 38.1 0)
+			(at 275.59 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,7 +8936,7 @@
 			)
 		)
 		(property "Footprint" "keyboard:Keybaord_outline_edgecuts"
-			(at 259.08 36.83 0)
+			(at 270.51 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +8945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 36.83 0)
+			(at 270.51 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8954,7 @@
 			)
 		)
 		(property "Description" "Keyboard outline"
-			(at 259.08 36.83 0)
+			(at 270.51 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,6 +10131,69 @@
 			(project "Keyboard_60%"
 				(path "/ef112b03-6536-453f-8127-17d1495b48aa"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:BLE_SYM")
+		(at 257.81 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ef1ed35-c4cd-4a85-8d4b-f5b69360b91c")
+		(property "Reference" "S3"
+			(at 256.54 17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 260.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keyboard:BLE-symbol"
+			(at 257.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard_60%"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -12887,15 +13144,15 @@
 	)
 	(symbol
 		(lib_id "keyboard:Logo_Open_Hardware_Small")
-		(at 259.08 24.13 0)
+		(at 246.38 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "f1189260-019f-40c4-ba74-a0e3a4be529d")
 		(property "Reference" "S1"
-			(at 257.81 16.51 0)
+			(at 245.11 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,7 +13161,7 @@
 			)
 		)
 		(property "Value" "Open  Hardware"
-			(at 251.46 30.48 0)
+			(at 238.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,7 +13170,7 @@
 			)
 		)
 		(property "Footprint" "keyboard:OSHW-Logo"
-			(at 259.08 24.13 0)
+			(at 246.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +13179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 24.13 0)
+			(at 246.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +13188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 24.13 0)
+			(at 246.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,6 +13200,67 @@
 			(project "Keyboard_60%"
 				(path "/ef112b03-6536-453f-8127-17d1495b48aa"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "keyboard:ZMK_LOGO")
+		(at 270.51 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2e241b8-7e70-4b21-840e-0ffc61abe59e")
+		(property "Reference" "S4"
+			(at 270.764 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 270.51 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyboard:ZMK_logo"
+			(at 270.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard_60%"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa"
+					(reference "S4")
 					(unit 1)
 				)
 			)
